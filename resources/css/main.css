@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+body {
+    margin: 0px;
+}
+div.center {
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+div.banner {
+    text-align: center;
+    background-color: mediumaquamarine;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+}
+div.banner:empty {
+    display:none
+}
+div.bannerForm {
+    background-color: mediumaquamarine;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    text-align: center;
+}
+div.nav {
+    background-color: mediumaquamarine;
+    border-style:dashed;
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+}
+div.nav div {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50px;
+    width:10vw;
+    min-width: 8em;
+    text-align: center;
+    background-color: aquamarine;
+}
+div.nav div:hover {
+    background-color: mediumspringgreen;
+}
+div#nav a {
+    color:black;
+}
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+h2 {
+    text-align: center;
+}
+em {
+    color:blue;
+}
+strong {
+    color:brown;
+}
+div.content {
+    background-color: mediumaquamarine;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+}
+img {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 60%;
+    border-radius: 30px;
+}
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: block;
+}
+.review {
+    border-color: black;
+    background-color: mediumaquamarine;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-basis: 48%;
+    box-sizing: border-box;    
+}
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.reviewer-name {
+    text-align: right;
+    font-style: italic;
+}
+
+.form {
+    background-color: mediumaquamarine;
+    padding: 10px;
+    text-align: center;
+    width:25%;
+    min-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+table {
+    background-color: white;
+    border: 2px solid;
+    margin: auto;
+}
+td, th {
+    border: 2px solid;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
